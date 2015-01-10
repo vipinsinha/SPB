@@ -12,7 +12,9 @@ namespace SPB
     public class MvcApplication : System.Web.HttpApplication
     {
         protected void Application_Start()
+
         {
+            //hh
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
